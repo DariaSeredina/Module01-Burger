@@ -7,6 +7,9 @@ body {
     padding-left: 15px;
     padding-right: 15px;
 }
+header {
+    border-bottom: 1px solid #DEDEDE;
+}
 .header {
     font-family: 'Open Sans', sans-serif;
     display: flex;
@@ -35,6 +38,9 @@ body {
     color: #443737;
     text-decoration: none;
 }
+.header-nav a:hover {
+    color: #FFC725;
+}
 .header-nav a::after {
     content: '';
     width: 100%;
@@ -53,6 +59,7 @@ body {
     border: none;
     padding: 0;
     gap: 10px;
+    cursor: pointer;
 }
 .button-item {
     position: relative;
@@ -83,6 +90,7 @@ body {
     background-size: cover;
     background-position: center center;
     padding: 142px 0;
+    margin-bottom: 140px;
 }
 .breadcrumbs {
     padding-left: 0;
@@ -90,7 +98,7 @@ body {
     list-style-type: none;
     display: flex;
     justify-content: center;
-    gap: 16px;
+    gap: 7px;
 }
 .breadcrumbs a {
     color: #DEDEDE;
@@ -98,10 +106,17 @@ body {
     font-family: 'Open Sans', sans-serif;
     text-decoration: none;
 }
+.breadcrumbs a:hover {
+    color: #FFC725;
+}
 .breadcrumbs a::before {
     content: '/';
     position: relative;
-    left: -7px;
+    left: -3px;
+    pointer-events: none;
+}
+.breadcrumbs a:hover::before {
+    color: #DEDEDE;
 }
 .breadcrumbs li:first-child a::before {
     display: none;
@@ -109,14 +124,56 @@ body {
 .title {
     font-weight: 700;
     font-size: 79px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 17px;
+    margin-bottom: 20px;
 }
 .description {
     font-family: 'Open Sans', sans-serif;
     font-size: 15px;
-    line-height: 1.5;
+    line-height: 1.6;
     color: #FAF9F9;
     max-width: 320px;
     margin: 0 auto;
+}
+.banner-box {
+    background-image: url(../images/banner.jpg);
+    height: 438px;
+    width: 1180px;
+}
+.banner-title {
+    font-size: 60px;
+    font-weight: 900;
+    color: #FFFFFF;
+    white-space: pre-line;
+    margin: -4px 923px 14px 100px;
+}
+.sale {
+    background-color: #F37335;
+    border-radius: 14px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 5px 19px 5px 16px;
+    text-transform: uppercase;
+    margin-bottom: 3px;
+}
+.banner-text {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: #FAF9F9;
+    line-height: 24px;
+    margin: 14px 727px 35px 100px;
+}
+.banner-link {
+    background-color: #FBB731;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 700;
+    color: #1E2F40;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 20px 25px;
+    margin-left: 100px;
+    margin-right: 910px;
 }
