@@ -137,43 +137,47 @@ header {
 }
 .banner-box {
     background-image: url(../images/banner.jpg);
-    height: 438px;
-    width: 1180px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding: 100px;
 }
 .banner-title {
     font-size: 60px;
     font-weight: 900;
     color: #FFFFFF;
-    white-space: pre-line;
-    margin: -4px 923px 14px 100px;
+    margin-top: 0;
+    margin-bottom: 12px;
 }
-.sale {
+.banner-title span {
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
     background-color: #F37335;
     border-radius: 14px;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 14px;
-    font-weight: 600;
-    padding: 5px 19px 5px 16px;
-    text-transform: uppercase;
-    margin-bottom: 3px;
+    padding: 5px 0;
+    display: block;
+    max-width: 96px;
+    text-align: center;
+    margin-bottom: 9px;
 }
 .banner-text {
     font-family: 'Open Sans', sans-serif;
-    font-size: 15px;
-    font-weight: 400;
+    font-size: 15px;;
     color: #FAF9F9;
-    line-height: 24px;
-    margin: 14px 727px 35px 100px;
+    line-height: 1.6;
+    margin-top: 0;
+    margin-bottom: 35px;
+    max-width: 335px;
 }
 .banner-link {
     background-color: #FBB731;
     border-radius: 5px;
     font-size: 14px;
-    font-weight: 700;
     color: #1E2F40;
     text-decoration: none;
     text-transform: uppercase;
-    padding: 20px 25px;
-    margin-left: 100px;
-    margin-right: 910px;
+    padding: 20px 27px;
+    font-weight: 700;
 }
