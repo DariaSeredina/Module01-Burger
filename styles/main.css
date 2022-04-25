@@ -626,8 +626,21 @@ header {
     .header {
         gap: 21px;
     }
+    .menu {
+        padding-top: 2px;
+    }
+    .menu-grid {
+        margin-bottom: 96px;
+    }
+    .menu-grid-cover {
+        margin-bottom: -9px;
+    }
     .menu-other .container {
         padding-right: 0;
+    }
+    .footer {
+        padding-top: 60px;
+        padding-bottom: 60px;
     }
     .button-up.visible {
         display: none;
@@ -714,8 +727,6 @@ header {
     .footer {
         margin-top: 0;
         margin-bottom: 28px;
-        padding-top: 60px;
-        padding-bottom: 60px;
     }
     .footer-list + .footer-list-tel {
         display: none;
@@ -751,6 +762,9 @@ header {
     }
     .menu-grid-title {
         font-size: 13px;
+    }
+    .footer {
+        margin-top: 28px;
     }
 }
 @media (max-width: 320px) {
