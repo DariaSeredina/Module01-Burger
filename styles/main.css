@@ -638,9 +638,6 @@ header {
     .menu-grid-cover {
         margin-bottom: -9px;
     }
-    .menu-other .container {
-        padding-right: 0;
-    }
     .footer {
         padding-top: 60px;
         padding-bottom: 60px;
@@ -729,7 +726,7 @@ header {
     }
     .footer {
         margin-top: 0;
-        margin-bottom: 28px;
+        margin-bottom: 0px;
     }
     .footer-list + .footer-list-tel {
         display: none;
@@ -768,6 +765,7 @@ header {
     }
     .footer {
         margin-top: 28px;
+        
     }
 }
 @media (max-width: 320px) {
